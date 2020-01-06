@@ -1,0 +1,58 @@
+.inp label {
+    font-weight: 300;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left: 2.5rem;
+    width: 4rem;
+    text-align: end;
+    margin-right: 0.2rem;
+    color: #454545;
+}
+
+.inp label::after {
+    content: ":";
+}
+
+.inpa sub {
+    color: #ab47bc;
+}
+
+.inpb sub {
+    color: #f4511e;
+}
+
+.inp input {
+    font-size: 1.5rem;
+    font-weight: 300;
+    box-sizing: border-box;
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+    padding: 5px;
+    width: 7rem;
+    outline: none;
+    color: #636363;
+    box-shadow: 0 0 0 #454545;
+    transition: 250ms;
+    margin-bottom: 0.20rem;
+}
+
+.inp input:hover {
+    color: #454545;
+    border-color: #454545;
+    box-shadow: 0 0 5px #454545;
+}
+
+.inp input:focus {
+    color: #454545;
+    border-color: #292929;
+    box-shadow: 0 0 5px #000;
+}
+
+.textfill {
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.inp {
+    padding-bottom: 0.20rem;
+}

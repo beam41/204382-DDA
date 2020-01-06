@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+}
+
+.warn {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.warn p {
+    margin: 1em;
+    align-self: flex-end;
+    color: #f57f17;
+}
+
+.canva {
+    box-shadow: 0 0 5px #454545;
+    transform: scale(1, -1);
+    transition: 500ms;
+}
+
+.canva_warn {
+    box-shadow: 0 0 5px #f57f17;
+}
+
+.warn p {
+    transition: 500ms;
+}
